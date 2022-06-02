@@ -1,6 +1,15 @@
-# todos-list
+# GOAL SYSTEMS
 
-## Project setup
+Code challenge - Frontend Engineer.
+
+## Problem Statement 📄
+
+The objective of the exercise is to display a list of tasks with two statuses: completed and uncompleted. In addition, several filtering options are available.
+
+
+## Execution Instructions ✅
+
+### Project setup
 ```
 npm install
 ```
@@ -10,20 +19,21 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
 ### Run your unit tests
 ```
 npm run test:unit
 ```
 
-### Lints and fixes files
+### Run a specific unit tests
 ```
-npm run lint
+npm run test:unit TodoList
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles and minifies for production
+```
+npm run build
+```
+
+
+## Developed by
+👨🏻‍💻 [Leandro Vitale](https://www.linkedin.com/in/leandrovitale/)
