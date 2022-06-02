@@ -21,7 +21,7 @@ export default Vue.extend({
     computed: {
         ...mapState(['todosList']),
         isNotEmpty() {
-        return this.todosList.length > 0
+            return this.todosList && this.todosList.length > 0
         }
     },
 })

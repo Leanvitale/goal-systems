@@ -6,12 +6,13 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    todosList: <ITodoItem[]>[],
+    todosList: new Array<ITodoItem>(),
     isEditing: false,
     route: ''
   },
   mutations: {
     addItem(state, item: ITodoItem) {
+      if ( !state.todosList ) state.todosList = new Array<ITodoItem>()
       state.todosList.push(item);
     },
     removeItem(state, item: ITodoItem) {
